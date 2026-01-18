@@ -1,0 +1,74 @@
+{
+  "sections": [
+    {
+      "id": 1,
+      "name": "Reaction Speed",
+      "questions": [
+        { "id": "RS1", "text": "I react immediately when something unexpected happens on the road.", "reverse": false },
+        { "id": "RS2", "text": "It takes me time to notice sudden changes in traffic.", "reverse": true },
+        { "id": "RS3", "text": "I quickly respond to traffic lights turning green.", "reverse": false },
+        { "id": "RS4", "text": "I often realize too late that I need to brake.", "reverse": true },
+        { "id": "RS5", "text": "I can react quickly even in stressful situations.", "reverse": false },
+        { "id": "RS6", "text": "I feel slow to respond when traffic becomes dense.", "reverse": true },
+        { "id": "RS7", "text": "I notice hazards almost instantly.", "reverse": false },
+        { "id": "RS8", "text": "I hesitate before responding to sudden events.", "reverse": true },
+        { "id": "RS9", "text": "My reactions help me avoid risky situations.", "reverse": false },
+        { "id": "RS10", "text": "I need extra time to process what is happening on the road.", "reverse": true }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Vehicle Control",
+      "questions": [
+        { "id": "VC1", "text": "I feel in full control of my vehicle.", "reverse": false },
+        { "id": "VC2", "text": "Sharp turns make me uncomfortable.", "reverse": true },
+        { "id": "VC3", "text": "I can smoothly coordinate steering and braking.", "reverse": false },
+        { "id": "VC4", "text": "I struggle to control the car during quick maneuvers.", "reverse": true },
+        { "id": "VC5", "text": "I adjust my driving well to road conditions.", "reverse": false },
+        { "id": "VC6", "text": "I feel unstable when driving at higher speeds.", "reverse": true },
+        { "id": "VC7", "text": "I am confident handling my vehicle.", "reverse": false },
+        { "id": "VC8", "text": "The car sometimes feels difficult to manage.", "reverse": true },
+        { "id": "VC9", "text": "I control acceleration and braking precisely.", "reverse": false },
+        { "id": "VC10", "text": "I often feel unsure about my vehicle handling.", "reverse": true }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Spatial Awareness",
+      "questions": [
+        { "id": "SA1", "text": "I accurately judge distances between vehicles.", "reverse": false },
+        { "id": "SA2", "text": "Parking is difficult for me.", "reverse": true },
+        { "id": "SA3", "text": "I am aware of my surroundings while driving.", "reverse": false },
+        { "id": "SA4", "text": "I often miss objects or vehicles around me.", "reverse": true },
+        { "id": "SA5", "text": "I easily understand how much space my car needs.", "reverse": false },
+        { "id": "SA6", "text": "I misjudge distances in tight spaces.", "reverse": true },
+        { "id": "SA7", "text": "I am aware of vehicles approaching from all sides.", "reverse": false },
+        { "id": "SA8", "text": "I feel disoriented in busy traffic.", "reverse": true },
+        { "id": "SA9", "text": "I maintain good awareness of lanes and positioning.", "reverse": false },
+        { "id": "SA10", "text": "I often feel unsure about the space around my vehicle.", "reverse": true }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Road Behavior",
+      "questions": [
+        { "id": "RB1", "text": "I stay calm even in heavy traffic.", "reverse": false },
+        { "id": "RB2", "text": "I get frustrated easily with other drivers.", "reverse": true },
+        { "id": "RB3", "text": "I follow traffic rules consistently.", "reverse": false },
+        { "id": "RB4", "text": "I take risks to save time.", "reverse": true },
+        { "id": "RB5", "text": "I respect other road users.", "reverse": false },
+        { "id": "RB6", "text": "I drive aggressively when stressed.", "reverse": true },
+        { "id": "RB7", "text": "I am patient while driving.", "reverse": false },
+        { "id": "RB8", "text": "I often ignore rules if the road is empty.", "reverse": true },
+        { "id": "RB9", "text": "I try to drive responsibly.", "reverse": false },
+        { "id": "RB10", "text": "I lose my temper on the road.", "reverse": true }
+      ]
+    }
+  ],
+  "answers": [
+    { "value": 1, "label": "Strongly Disagree" },
+    { "value": 2, "label": "Disagree" },
+    { "value": 3, "label": "Agree" },
+    { "value": 4, "label": "Strongly Agree" }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "total_completions": 6,
+  "total_started": 15,
+  "completion_rate": 42.86,
+  "average_scores": {
+    "Reaction Speed": 2.65,
+    "Vehicle Control": 2.53,
+    "Spatial Awareness": 2.4,
+    "Road Behavior": 2.42
+  },
+  "driver_styles": {
+    "You show average driving capabilities with room for improvement. While you handle routine situations well, developing your reaction speed would enhance your overall safety.": 2,
+    "You show average driving capabilities with room for improvement. While you handle routine situations well, developing your vehicle control would enhance your overall safety.": 1,
+    "This driver demonstrates a cautious approach on the road, as indicated by their medium score in road behavior. However, their low spatial awareness and average vehicle control suggest that they may struggle with navigating tight spaces and making quick decisions. Improving these areas will enhance their overall driving confidence and safety.": 1,
+    "The driver's assessment indicates a cautious driving style, which reflects a commitment to safety. However, their average scores in reaction speed and vehicle control suggest there is room for improvement in handling dynamic driving situations. Additionally, their spatial awareness score indicates a need for better understanding of their vehicle's position relative to other objects on the road.": 1,
+    "The driver exhibits a cautious approach to driving, reflecting a thoughtful attitude towards road safety. While their reaction speed and vehicle control are average, there is room for improvement in spatial awareness and overall road behavior, which suggests a tendency to prioritize safety over assertiveness. This balanced approach is commendable, but enhancing their skills will boost their confidence and effectiveness on the road.": 1
+  },
+  "last_updated": "2026-01-19T00:15:04.315444"
+}
