@@ -169,7 +169,12 @@ export default function QuestionPage() {
   if (loading) {
     return (
       <PageLayout pageBg="#FFFFFF" from="questionnaire" backgroundImage={question}>
-        <Stack sx={{ minHeight: '100vh', width: '100vw' }} justifyContent="center" alignItems="center">
+        <Stack sx={{ minHeight: {
+            xs: '90vh',
+            md: '95.5vh',
+            lg: '95.7vh',
+            xl: '96.5vh',
+          }, width: '100vw' }} justifyContent="center" alignItems="center">
           <CircularProgress size={100} sx={{ color: '#FFFFFF' }}/>
           <Typography sx={{ mt: 2, color: '#FFFFFF', fontSize: '1.5rem' }}>
             {questions.filter(q => !answers[q.id]).length === 0 ? `Please wait while we load the results...` : 'Loading questionnaire...'}
@@ -183,7 +188,12 @@ export default function QuestionPage() {
   if (error || questions.length === 0) {
     return (
       <PageLayout pageBg="#FFFFFF" from="questionnaire" backgroundImage={question}>
-        <Stack sx={{ minHeight: '100vh', width: '100vw' }} justifyContent="center" alignItems="center">
+        <Stack sx={{ minHeight: {
+            xs: '90vh',
+            md: '95.5vh',
+            lg: '95.7vh',
+            xl: '96.5vh',
+          }, width: '100vw' }} justifyContent="center" alignItems="center">
           <Typography sx={{ color: '#414141', fontSize: '1.5rem', mb: 2 }}>
             {error || 'No questions available'}
           </Typography>
